@@ -75,7 +75,7 @@ public class RepositorioConversaciones implements IRepositorioConversaciones {
 		} catch (ConversacionException e) {
 			// TODO Auto-generated catch block
 			throw e; 
-		}
+		} 
 
 		this.getListaConversacione().remove(conversacionAEliminar);
 
@@ -85,17 +85,16 @@ public class RepositorioConversaciones implements IRepositorioConversaciones {
 	public void incrementaNumeroValoraciones(LocalDate fecha, TipoAgente tipo, String pregunta, double valoracion)
 			throws ConversacionException {
 		Conversacion conversacionActualizaValor = null; 
-		try {
+		try { 
 			conversacionActualizaValor = this.getConversacion(fecha, tipo, pregunta);
-		} catch (ConversacionException e) {
+		} catch (ConversacionException e) { 
 			// TODO Auto-generated catch block
 			throw e;
-		}
-		conversacionActualizaValor
-				.setNumValoracionesPositivas(conversacionActualizaValor.getNumValoracionesPositivas() + 1);
+		}  
+		conversacionActualizaValor.setNumValoracionesPositivas(conversacionActualizaValor.getNumValoracionesPositivas() + 1);
 
 		// TODO Auto-generated method stub
-
+ 
 	}
 
 }

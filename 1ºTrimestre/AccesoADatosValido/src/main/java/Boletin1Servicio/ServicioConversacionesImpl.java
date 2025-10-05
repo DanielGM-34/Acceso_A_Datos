@@ -24,26 +24,42 @@ public class ServicioConversacionesImpl implements IServicioConversaciones {
 			p = repoConvers.getConversacion(fecha, tipo, pregunta);
 		} catch (ConversacionException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace(); 
-		} 
+			e.printStackTrace();
+		}
 		return p;
 	}
 
 	@Override
 	public boolean eliminaConversacion(LocalDate fecha, TipoAgente tipo) throws ConversacionException {
 		// TODO Auto-generated method stub
-		
+		repoConvers.eliminaConversacion(fecha, tipo, null);
 		return false;
 	}
 
 	@Override
-	public boolean incrementaNumeroValoraciones(LocalDate fecha, TipoAgente tipo, String pregunta) {
+	public boolean incrementaNumeroValoraciones(LocalDate fecha, TipoAgente tipo, String pregunta) { 
 		// TODO Auto-generated method stub
-		return false;
+		boolean incrementa = false;
+		Conversacion ejemplillo = getRecuperaConversacion(tipo, pregunta, fecha);
+
+		if (ejemplillo != null) {
+			try {
+				double valora = ejemplillo.getNumValoracionesPositivas();
+				repoConvers.incrementaNumeroValoraciones(fecha, tipo, pregunta, valora);
+				incrementa = true;
+			} catch (ConversacionException e) {
+				// TODO Auto-generated catch block
+				System.out.println(e.getMessage());
+			}
+
+		}
+
+		return incrementa;
 	}
 
 	@Override
 	public double getValoracionMediaParaHumanos() {
+		
 		// TODO Auto-generated method stub
 		return 0;
 	}
