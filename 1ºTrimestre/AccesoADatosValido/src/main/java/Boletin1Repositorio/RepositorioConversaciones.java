@@ -97,4 +97,11 @@ public class RepositorioConversaciones implements IRepositorioConversaciones {
  
 	}
 
+	@Override
+	public String toString() {
+		return "RepositorioConversaciones [listaConversacione=" + listaConversacione + "]";
+	}
+	
+	
+
 }

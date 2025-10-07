@@ -28,11 +28,11 @@ public class ServicioConversacionesImpl implements IServicioConversaciones {
 		}
 		return p;
 	}
-
+	
 	@Override
 	public boolean eliminaConversacion(LocalDate fecha, TipoAgente tipo) throws ConversacionException {
 		// TODO Auto-generated method stub
-		repoConvers.eliminaConversacion(fecha, tipo, null);
+		repoConvers.eliminaConversacion(fecha, tipo, null); 
 		return false;
 	}
 
@@ -58,7 +58,7 @@ public class ServicioConversacionesImpl implements IServicioConversaciones {
 	}
 
 	@Override
-	public double getValoracionMediaParaHumanos() {
+	public double getValoracionMediaParaHumanos() { 
 		
 		// TODO Auto-generated method stub
 		return 0;
@@ -68,6 +68,11 @@ public class ServicioConversacionesImpl implements IServicioConversaciones {
 	public double getValoracionMedidaParaBots() {
 		// TODO Auto-generated method stub
 		return 0;
+	}
+
+	@Override
+	public String toString() {
+		return "ServicioConversacionesImpl [repoConvers=" + repoConvers + "]";
 	}
 
 }

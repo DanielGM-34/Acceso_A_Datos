@@ -12,7 +12,7 @@ public class Conversacion {
 	private int numValoracionesPositivas;
 
 	public Conversacion() {
-		super();
+		super(); 
 	}
 
 	public Conversacion(String pregunta, String respuesta, TipoAgente tipo) {
@@ -96,7 +96,7 @@ public class Conversacion {
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
-			return true;
+			return true; 
 		if (obj == null)
 			return false;
 		if (getClass() != obj.getClass())
