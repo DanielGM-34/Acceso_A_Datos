@@ -1,0 +1,40 @@
+2025-10-13 21:46:10.410 [main] ERROR tema1Ficheros.Ejercicio1 - Excepción: No existe la ruta del fichero.
+2025-10-13 21:46:42.936 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero1.txt ya existe.
+2025-10-13 21:46:42.939 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt creado.
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt es ahora solo lectura.
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero1.txt
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: true
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Desktop\2 DAM\Acceso_A_Datos\Acceso_A_Datos\1ºTrimestre\AccesoADatosValido\miDirectorio\fichero1.txt
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero2.txt
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-13 21:46:42.940 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: false
+2025-10-13 21:46:42.941 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Desktop\2 DAM\Acceso_A_Datos\Acceso_A_Datos\1ºTrimestre\AccesoADatosValido\miDirectorio\fichero2.txt
+2025-10-13 21:46:42.941 [main] DEBUG tema1Ficheros.Ejercicio3 - No se pudo renombrar.
+2025-10-13 21:46:42.941 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt eliminado.
+2025-10-13 21:49:41.682 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero1.txt ya existe.
+2025-10-13 21:49:41.684 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt creado.
+2025-10-13 21:49:41.684 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt es ahora solo lectura.
+2025-10-13 21:49:41.684 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero1.txt
+2025-10-13 21:49:41.684 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-13 21:49:41.685 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: true
+2025-10-13 21:49:41.685 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Desktop\2 DAM\Acceso_A_Datos\Acceso_A_Datos\1ºTrimestre\AccesoADatosValido\miDirectorio\fichero1.txt
+2025-10-13 21:49:41.685 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero2.txt
+2025-10-13 21:49:41.685 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-13 21:49:41.685 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: false
+2025-10-13 21:49:41.685 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Desktop\2 DAM\Acceso_A_Datos\Acceso_A_Datos\1ºTrimestre\AccesoADatosValido\miDirectorio\fichero2.txt
+2025-10-13 21:49:41.686 [main] DEBUG tema1Ficheros.Ejercicio3 - No se pudo renombrar.
+2025-10-13 21:49:41.686 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt eliminado.
+2025-10-13 21:49:55.054 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero1.txt ya existe.
+2025-10-13 21:49:55.056 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt creado.
+2025-10-13 21:49:55.056 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt es ahora solo lectura.
+2025-10-13 21:49:55.056 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero1.txt
+2025-10-13 21:49:55.056 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-13 21:49:55.056 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: true
+2025-10-13 21:49:55.056 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Desktop\2 DAM\Acceso_A_Datos\Acceso_A_Datos\1ºTrimestre\AccesoADatosValido\miDirectorio\fichero1.txt
+2025-10-13 21:49:55.057 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero2.txt
+2025-10-13 21:49:55.057 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-13 21:49:55.057 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: false
+2025-10-13 21:49:55.057 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Desktop\2 DAM\Acceso_A_Datos\Acceso_A_Datos\1ºTrimestre\AccesoADatosValido\miDirectorio\fichero2.txt
+2025-10-13 21:49:55.059 [main] DEBUG tema1Ficheros.Ejercicio3 - No se pudo renombrar.
+2025-10-13 21:49:55.059 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt eliminado.

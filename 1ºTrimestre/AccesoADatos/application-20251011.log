@@ -1,0 +1,31 @@
+2025-10-11 19:19:28.508 [main] ERROR tema1Ficheros.Ejercicio1 - Excepción: No existe la ruta del fichero.
+2025-10-11 19:20:40.347 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero1.txt ya existe.
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt creado.
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt es ahora solo lectura.
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero1.txt
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: true
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Downloads\Acceso a datos\Acceso a datos\AccesoADatos\miDirectorio\fichero1.txt
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero2.txt
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: false
+2025-10-11 19:20:40.349 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\DANI\Downloads\Acceso a datos\Acceso a datos\AccesoADatos\miDirectorio\fichero2.txt
+2025-10-11 19:20:40.350 [main] DEBUG tema1Ficheros.Ejercicio3 - No se pudo renombrar.
+2025-10-11 19:20:40.350 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt eliminado.
+2025-10-11 20:19:15.697 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-Ejercicio_Carpetas_y_Ficheros.pdf, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-DtdErrores.rar, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-PRÁCTICA_6_DEBUGGEAR.pdf, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=ProyectoTrello.docx, Valor=FALTA_EN_1]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=xrp.html, Valor=IGUALES]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=UMLpRO.drawio, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=EXPORTADORES DE VINOS.pptx, Valor=FALTA_EN_1]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-Actividadades1,2,4y9.pdf, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-XML2.xml, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-Actividades1,2,3y7.pdf, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-Ejercicio_Carpetas_y_Ficheros.docx, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-Actividades1,2,3y7.docx, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=ProyectoTrello.pdf, Valor=FALTA_EN_1]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=digitalizacion.docx, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=Proyecto Trello Manuel y Daniel.rar, Valor=FALTA_EN_1]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel-XmlErrores.rar, Valor=FALTA_EN_2]
+2025-10-11 20:19:15.699 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=xrp.py, Valor=FALTA_EN_2]
