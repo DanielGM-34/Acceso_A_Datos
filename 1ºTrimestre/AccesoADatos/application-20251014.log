@@ -1,0 +1,104 @@
+2025-10-14 08:07:37.346 [main] ERROR tema1Ficheros.Ejercicio1 - Excepción: No existe la ruta del fichero.
+2025-10-14 08:07:45.924 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero1.txt ya existe.
+2025-10-14 08:07:45.926 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt creado.
+2025-10-14 08:07:45.927 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt es ahora solo lectura.
+2025-10-14 08:07:45.927 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero1.txt
+2025-10-14 08:07:45.927 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-14 08:07:45.927 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: true
+2025-10-14 08:07:45.927 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\alumno\Desktop\2DAM\Acceso_A_Datos\1ºTrimestre\AccesoADatos\miDirectorio\fichero1.txt
+2025-10-14 08:07:45.927 [main] DEBUG tema1Ficheros.Ejercicio3 - Nombre: fichero2.txt
+2025-10-14 08:07:45.928 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede leer: true
+2025-10-14 08:07:45.928 [main] DEBUG tema1Ficheros.Ejercicio3 -  Se puede escribir: false
+2025-10-14 08:07:45.928 [main] DEBUG tema1Ficheros.Ejercicio3 -  Ruta absoluta: C:\Users\alumno\Desktop\2DAM\Acceso_A_Datos\1ºTrimestre\AccesoADatos\miDirectorio\fichero2.txt
+2025-10-14 08:07:45.928 [main] DEBUG tema1Ficheros.Ejercicio3 - No se pudo renombrar.
+2025-10-14 08:07:45.928 [main] DEBUG tema1Ficheros.Ejercicio3 - fichero2.txt eliminado.
+2025-10-14 10:03:00.585 [main] WARN  tema1Ficheros.Ejercicio1 - Error al validar carpetas: Directorio no válido.:TRELLO
+2025-10-14 10:03:31.075 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel_ACT_INT.md, Valor=FALTA_EN_2]
+2025-10-14 10:04:38.591 [main] DEBUG tema1Ficheros.Ejercicio1 - ResultadoComparacion [nombreArchivo=García_Méndez_Daniel_ACT_INT.md, Valor=FALTA_EN_2]
+2025-10-14 11:51:30.269 [main] INFO  tema1Ficheros.Ejercicio1 - holaaa
+2025-10-14 11:51:30.273 [main] INFO  tema1Ficheros.Ejercicio1 - feo
+2025-10-14 11:51:30.273 [main] INFO  tema1Ficheros.Ejercicio1 - tonto
+2025-10-14 11:51:56.909 [main] INFO  tema1Ficheros.Ejercicio1 - holaaa
+2025-10-14 11:51:56.912 [main] INFO  tema1Ficheros.Ejercicio1 - feo
+2025-10-14 11:51:56.913 [main] INFO  tema1Ficheros.Ejercicio1 - tonto
+2025-10-14 11:53:18.104 [main] INFO  tema1Ficheros.Ejercicio1 - holaaa
+2025-10-14 11:53:18.108 [main] INFO  tema1Ficheros.Ejercicio1 - feo
+2025-10-14 11:53:18.109 [main] INFO  tema1Ficheros.Ejercicio1 - tonto
+2025-10-14 11:53:59.372 [main] INFO  tema1Ficheros.Ejercicio1 - holaaa,
+2025-10-14 11:53:59.378 [main] INFO  tema1Ficheros.Ejercicio1 - comas,
+2025-10-14 11:53:59.378 [main] INFO  tema1Ficheros.Ejercicio1 - pii
+2025-10-14 11:53:59.378 [main] INFO  tema1Ficheros.Ejercicio1 - feo,
+2025-10-14 11:53:59.378 [main] INFO  tema1Ficheros.Ejercicio1 - koko,
+2025-10-14 11:53:59.378 [main] INFO  tema1Ficheros.Ejercicio1 - mme,pol
+2025-10-14 11:53:59.379 [main] INFO  tema1Ficheros.Ejercicio1 - tonto,
+2025-10-14 11:53:59.379 [main] INFO  tema1Ficheros.Ejercicio1 - pe
+2025-10-14 11:54:25.024 [main] INFO  tema1Ficheros.Ejercicio1 - holaaa
+2025-10-14 11:54:25.028 [main] INFO  tema1Ficheros.Ejercicio1 -  comas
+2025-10-14 11:54:25.029 [main] INFO  tema1Ficheros.Ejercicio1 -  pii
+feo
+2025-10-14 11:54:25.029 [main] INFO  tema1Ficheros.Ejercicio1 -  koko
+2025-10-14 11:54:25.029 [main] INFO  tema1Ficheros.Ejercicio1 -  mme
+2025-10-14 11:54:25.029 [main] INFO  tema1Ficheros.Ejercicio1 - pol
+tonto
+2025-10-14 11:54:25.029 [main] INFO  tema1Ficheros.Ejercicio1 -  pe
+2025-10-14 11:59:33.674 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe;8;7;6
+María;9;5;3
+
+2025-10-14 11:59:59.887 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe
+2025-10-14 11:59:59.891 [main] INFO  tema1Ficheros.Ejercicio1 - 8
+2025-10-14 11:59:59.892 [main] INFO  tema1Ficheros.Ejercicio1 - 7
+2025-10-14 11:59:59.892 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+María
+2025-10-14 11:59:59.892 [main] INFO  tema1Ficheros.Ejercicio1 - 9
+2025-10-14 11:59:59.892 [main] INFO  tema1Ficheros.Ejercicio1 - 5
+2025-10-14 11:59:59.892 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+
+2025-10-14 12:10:15.034 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe
+2025-10-14 12:10:15.039 [main] INFO  tema1Ficheros.Ejercicio1 - 7
+2025-10-14 12:13:00.211 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe
+2025-10-14 12:13:00.217 [main] INFO  tema1Ficheros.Ejercicio1 - 7
+2025-10-14 12:13:00.217 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+María
+2025-10-14 12:13:00.218 [main] INFO  tema1Ficheros.Ejercicio1 - 5
+2025-10-14 12:13:00.218 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+
+2025-10-14 12:13:01.932 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe
+2025-10-14 12:13:01.939 [main] INFO  tema1Ficheros.Ejercicio1 - 7
+2025-10-14 12:13:01.940 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+María
+2025-10-14 12:13:01.940 [main] INFO  tema1Ficheros.Ejercicio1 - 5
+2025-10-14 12:13:01.940 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+
+2025-10-14 12:13:23.863 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe
+2025-10-14 12:13:23.868 [main] INFO  tema1Ficheros.Ejercicio1 - 7
+2025-10-14 12:13:23.868 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+María
+2025-10-14 12:13:23.868 [main] INFO  tema1Ficheros.Ejercicio1 - 5
+2025-10-14 12:13:23.869 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+
+2025-10-14 12:26:31.610 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:26:31.616 [main] INFO  tema1Ficheros.Ejercicio1 - María
+2025-10-14 12:27:04.822 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:27:04.827 [main] INFO  tema1Ficheros.Ejercicio1 - María
+2025-10-14 12:27:04.828 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:27:04.828 [main] INFO  tema1Ficheros.Ejercicio1 - ,9,5,3
+2025-10-14 12:28:07.281 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:28:07.287 [main] INFO  tema1Ficheros.Ejercicio1 - 
+
+2025-10-14 12:28:07.287 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:31:23.408 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:31:23.415 [main] INFO  tema1Ficheros.Ejercicio1 - Maria
+2025-10-14 12:31:23.415 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:31:23.415 [main] INFO  tema1Ficheros.Ejercicio1 - ,8,7,5
+2025-10-14 12:31:46.478 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:31:46.484 [main] INFO  tema1Ficheros.Ejercicio1 - Maria
+2025-10-14 12:31:46.484 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:31:46.485 [main] INFO  tema1Ficheros.Ejercicio1 - ,8,7,5
+2025-10-14 12:31:59.919 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:31:59.926 [main] INFO  tema1Ficheros.Ejercicio1 - Maria
+2025-10-14 12:31:59.926 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:31:59.927 [main] INFO  tema1Ficheros.Ejercicio1 - ,8,7,5
+2025-10-14 12:33:51.459 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:33:51.464 [main] INFO  tema1Ficheros.Ejercicio1 - Maria
+2025-10-14 12:33:51.464 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:33:51.465 [main] INFO  tema1Ficheros.Ejercicio1 - ,8,7,5
