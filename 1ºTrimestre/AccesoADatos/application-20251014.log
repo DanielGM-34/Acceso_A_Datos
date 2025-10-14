@@ -102,3 +102,28 @@ María
 2025-10-14 12:33:51.464 [main] INFO  tema1Ficheros.Ejercicio1 - Maria
 2025-10-14 12:33:51.464 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
 2025-10-14 12:33:51.465 [main] INFO  tema1Ficheros.Ejercicio1 - ,8,7,5
+2025-10-14 12:50:06.395 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe
+2025-10-14 12:50:06.395 [main] INFO  tema1Ficheros.Ejercicio1 - 8
+2025-10-14 12:50:06.395 [main] INFO  tema1Ficheros.Ejercicio1 - 7
+2025-10-14 12:50:06.395 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+Maria
+2025-10-14 12:50:06.395 [main] INFO  tema1Ficheros.Ejercicio1 - 8
+2025-10-14 12:50:06.395 [main] INFO  tema1Ficheros.Ejercicio1 - 7
+2025-10-14 12:50:06.395 [main] INFO  tema1Ficheros.Ejercicio1 - 5
+
+2025-10-14 12:50:42.923 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:50:42.925 [main] INFO  tema1Ficheros.Ejercicio1 - Maria
+2025-10-14 12:50:42.925 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:50:42.925 [main] INFO  tema1Ficheros.Ejercicio1 - ,8,7,5
+2025-10-14 12:51:25.629 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:51:25.631 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:51:25.631 [main] INFO  tema1Ficheros.Ejercicio1 - Maria,8,7,5
+2025-10-14 12:51:25.631 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Maria, notas=[8, 7, 5]]
+2025-10-14 12:51:39.543 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:51:39.546 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:51:39.546 [main] INFO  tema1Ficheros.Ejercicio1 - Maria,8,7,5
+2025-10-14 12:51:39.546 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Maria, notas=[8, 7, 5]]
+2025-10-14 12:52:53.329 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-14 12:52:53.331 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-14 12:52:53.332 [main] INFO  tema1Ficheros.Ejercicio1 - Maria,8,7,5
+2025-10-14 12:52:53.332 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Maria, notas=[8, 7, 5]]

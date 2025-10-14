@@ -24,6 +24,8 @@ public class GestionaPersonas {
 		try {
 			p.muestraContenidoFich(ruta);
 			p.devuelvePersona(ruta);
+			
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -45,8 +47,6 @@ public class GestionaPersonas {
 				// Aquí se hará la lectura in.next()
 				String palabra = in.nextLine();
 				logger.info(palabra);
-
-				logger.info(in.next());
 				Persona p = devuelvePersona(palabra);
 				logger.info(p.toString());
 
@@ -69,7 +69,6 @@ public class GestionaPersonas {
 			listaNotas.add(Integer.parseInt(string));
 		}
 		return a;
-
 	}
 
 }
