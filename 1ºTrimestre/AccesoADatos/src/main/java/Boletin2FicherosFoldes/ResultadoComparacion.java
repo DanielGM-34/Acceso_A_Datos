@@ -25,7 +25,7 @@ public class ResultadoComparacion {
 	@Override
 	public String toString() {
 		return "ResultadoComparacion [nombreArchivo=" + nombreArchivo + ", Valor=" + Valor + "]";
-	} 
+	}
 	
 	
 
