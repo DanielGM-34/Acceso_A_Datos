@@ -1,0 +1,36 @@
+2025-10-21 09:54:01.941 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 09:54:03.841 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 09:55:32.184 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 09:55:33.685 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 10:04:46.172 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 10:04:52.657 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 10:04:54.376 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 10:21:20.786 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 10:22:01.887 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=p.txt, Valor=FALTA_EN_2]
+2025-10-21 10:22:01.890 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 10:22:59.561 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=p.txt, Valor=FALTA_EN_2]
+2025-10-21 10:22:59.563 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=IGUALES]
+2025-10-21 10:24:25.083 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=p.txt, Valor=FALTA_EN_2]
+2025-10-21 10:24:25.085 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=prueba.txt.txt, Valor=MENOS_NUEVO_EN_2]
+2025-10-21 10:46:43.149 [main] INFO  tema1Ficheros.Ejercicio1 - 0
+2025-10-21 10:46:43.966 [main] INFO  tema1Ficheros.Ejercicio1 - 0
+2025-10-21 10:47:03.260 [main] INFO  tema1Ficheros.Ejercicio1 - 0
+2025-10-21 10:49:22.539 [main] INFO  tema1Ficheros.Ejercicio1 - 0
+2025-10-21 10:49:54.948 [main] INFO  tema1Ficheros.Ejercicio1 - 0
+2025-10-21 10:50:18.008 [main] INFO  tema1Ficheros.Ejercicio1 - 0
+2025-10-21 10:50:30.318 [main] INFO  tema1Ficheros.Ejercicio1 - 0
+2025-10-21 10:51:48.306 [main] INFO  tema1Ficheros.Ejercicio1 - 2
+2025-10-21 10:52:06.558 [main] INFO  tema1Ficheros.Ejercicio1 - 2
+2025-10-21 10:52:28.137 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+2025-10-21 10:53:18.755 [main] INFO  tema1Ficheros.Ejercicio1 - 1
+2025-10-21 10:53:34.313 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+2025-10-21 10:54:00.347 [main] INFO  tema1Ficheros.Ejercicio1 - 2
+2025-10-21 10:54:30.545 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 10:55:13.639 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 10:56:59.852 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 11:45:52.417 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 11:46:08.872 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 11:46:36.145 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 11:46:59.437 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 11:49:13.393 [main] INFO  tema1Ficheros.Ejercicio1 - 6
+2025-10-21 11:49:26.258 [main] INFO  tema1Ficheros.Ejercicio1 - 6

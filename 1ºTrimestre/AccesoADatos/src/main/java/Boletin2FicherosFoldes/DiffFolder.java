@@ -1,12 +1,9 @@
 package Boletin2FicherosFoldes;
 
 import java.io.File;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -72,38 +69,37 @@ public class DiffFolder {
 		return archivosResultado;
 	}
 
-	public Set<String> obtenerArchivosRepetidos(Map<String, File> mapaCarpeta1, Map<String, File> mapaCarpeta2) {
+	public Set<String> obtenerNombresArchivo(Map<String, File> mapaCarpeta1, Map<String, File> mapaCarpeta2) {
 		Set<String> listaDeArchivosRepetidos = new HashSet<String>();
 		listaDeArchivosRepetidos.addAll(mapaCarpeta1.keySet());
 		listaDeArchivosRepetidos.addAll(mapaCarpeta2.keySet());
 		return listaDeArchivosRepetidos;
-	}
+	} 
 
-	public Collection<ResultadoComparacion> compare() { 
+	public Collection<ResultadoComparacion> compare() {
 		Set<ResultadoComparacion> resultados = new HashSet<ResultadoComparacion>();
 		Map<String, File> mapa1 = obtenerArchivosCarpeta(this.folder1);
 		Map<String, File> mapa2 = obtenerArchivosCarpeta(this.folder2);
 		boolean carpetaMayorEsFolder1 = mapa1.size() > mapa2.size();
-		Set<String> todos = carpetaMayorEsFolder1 ? obtenerArchivosRepetidos(mapa1, mapa2)
-				: obtenerArchivosRepetidos(mapa2, mapa1);
+		Set<String> todos = carpetaMayorEsFolder1 ? obtenerNombresArchivo(mapa1, mapa2)
+				: obtenerNombresArchivo(mapa2, mapa1); 
 		for (String nombre : todos) {
 			resultados.add(compararArchivo(nombre, mapa1, mapa2, carpetaMayorEsFolder1));
 		}
-
 		return resultados;
 	}
+ 
 
 	private ResultadoComparacion compararArchivo(String nombre, Map<String, File> mapa1, Map<String, File> mapa2,
 			boolean carpetaMayorEsFolder1) {
-		Valor resultado = null; 
+		Valor resultado = null;
 		ResultadoComparacion comparacionArchivitos = null;
 		File archivoMapa1 = mapa1.get(nombre);
-		File archivoMapa2 = mapa2.get(nombre);
+		File archivoMapa2 = mapa2.get(nombre); 
 
 		if (archivoMapa1 != null && archivoMapa2 != null) {
 			long mod1 = archivoMapa1.lastModified();
 			long mod2 = archivoMapa2.lastModified();
-
 			if (mod1 == mod2) {
 				resultado = Valor.IGUALES;
 			} else if (mod1 > mod2) {
