@@ -21,8 +21,9 @@ public class GestionaContadorPalabras {
 
 		
 		try {
-			logger.info(a.contarPalabras(rutaResources+"fichero12.txt", "es"));
-			int contarPalabra = a.contarPalabras(rutaResources+"fichero12.txt", "es");
+			logger.info(a.contarPalabras(rutaResources+"fichero.txt", "su"));
+			int contarPalabra = a.contarPalabras(rutaResources+"fichero.txt", "su");
+			logger.info(contarPalabra);
 			a.escribirFicheroLog2(contarPalabra, rutaResources+"es.txt");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

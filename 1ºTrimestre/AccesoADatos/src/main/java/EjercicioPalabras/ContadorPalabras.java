@@ -36,13 +36,10 @@ public class ContadorPalabras {
 		PrintWriter out = null;
 		FileWriter ficheroSalida; 
 		File archivoTxt = new File(rutaFichero);
-
 		try {
 			ficheroSalida = new FileWriter(rutaFichero);
 			out = new PrintWriter(ficheroSalida);
 			out.printf("El número de veces que aparece es %d %n", nume);
-			ficheroSalida.write(nume);
-
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -54,12 +51,30 @@ public class ContadorPalabras {
 	}
 	
 	public void escribirFicheroLog2(int nume, String rutaFichero) {
-	    try (PrintWriter out = new PrintWriter(new FileWriter(rutaFichero))) {
-	        out.printf("El número de veces que aparece es %d%n", nume);
+	    PrintWriter out = null;
+	    FileWriter ficheroSalida;
+	    File archivoTxt = new File(rutaFichero);
+
+	    try {
+	        // Crear el directorio 'resources' si no existe
+	        File directorio = archivoTxt.getParentFile();
+	        if (directorio != null && !directorio.exists()) {
+	            directorio.mkdirs();
+	        }
+
+	        ficheroSalida = new FileWriter(archivoTxt);
+	        out = new PrintWriter(ficheroSalida);
+	        out.printf("El número de veces que aparece es %d %n", nume);
 	    } catch (IOException e) {
 	        System.err.println("Error al escribir en el fichero: " + e.getMessage());
 	        e.printStackTrace();
+	    } finally {
+	        if (out != null) {
+	            out.close();
+	        }
 	    }
 	}
+
+
 
 }
