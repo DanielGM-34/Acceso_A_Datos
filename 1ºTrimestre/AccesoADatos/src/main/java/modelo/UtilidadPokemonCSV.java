@@ -13,6 +13,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 public class UtilidadPokemonCSV {
 
@@ -106,7 +107,7 @@ public class UtilidadPokemonCSV {
 	}
 
 	public void realizaJSOn(List<Pokemon> p, String rutaJson) {
-		Gson gson = new Gson();
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(p);
 		FileWriter fichero = null;
 		try {
