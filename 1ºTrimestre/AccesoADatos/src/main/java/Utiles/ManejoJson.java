@@ -24,7 +24,6 @@ public class ManejoJson {
 		Gson gson = new Gson();
 		Empleado empleado = gson.fromJson(rutaResources + "Empleado.json", Empleado.class);
 		Pokemon poke = gson.fromJson(rutaResources + "Pokemon.json", Pokemon.class);
-		
 
 		System.out.println(poke);
 	}

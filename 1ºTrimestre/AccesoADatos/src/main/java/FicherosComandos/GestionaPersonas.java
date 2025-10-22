@@ -18,7 +18,7 @@ public class GestionaPersonas {
 	public static void main(String[] args) {
 		List<Integer> notas = new ArrayList<Integer>();
 		
-		
+		 
 		// TODO Auto-generated method stub
 		GestionaPersonas p = new GestionaPersonas();
 		try {
