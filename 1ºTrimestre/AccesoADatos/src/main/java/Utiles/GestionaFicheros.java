@@ -33,11 +33,11 @@ public class GestionaFicheros {
 	List<Pais> devuelveListaPaises(String rutaYNombre) throws FileNotFoundException {
 		Scanner in = null; 
 		List<Pais> listaPaises = new ArrayList<Pais>();  
-		Pais pais = null;
+		Pais pais = null; 
 		try {
 			// abre el fichero
 			FileReader ficheroALeer = new FileReader(rutaYNombre);
-			// Se crea el flujo
+			// Se crea el flujo 
 			in = new Scanner(ficheroALeer);
 			// lee el fichero
 			in.nextLine();

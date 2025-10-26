@@ -14,7 +14,7 @@ import tema1Ficheros.Ejercicio1;
 public class GestionaPersonas {
 	private static final Logger logger = LogManager.getLogger(Ejercicio1.class);
 	private static final String ruta = "src\\main\\resources\\prueba.txt.txt";
-
+ 
 	public static void main(String[] args) {
 		List<Integer> notas = new ArrayList<Integer>();
 		
@@ -32,7 +32,7 @@ public class GestionaPersonas {
 		}
 
 	}
-
+ 
 	void muestraContenidoFich(String rutaYNombre) throws FileNotFoundException {
 		Scanner in = null;
 		try {

@@ -1,0 +1,4 @@
+2025-10-24 21:52:46.576 [main] INFO  tema1Ficheros.Ejercicio1 - Pepe,8,7,6
+2025-10-24 21:52:46.578 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Pepe, notas=[8, 7, 6]]
+2025-10-24 21:52:46.578 [main] INFO  tema1Ficheros.Ejercicio1 - Maria,8,7,5
+2025-10-24 21:52:46.578 [main] INFO  tema1Ficheros.Ejercicio1 - Persona [nombre=Maria, notas=[8, 7, 5]]
