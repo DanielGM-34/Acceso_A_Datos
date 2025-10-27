@@ -94,7 +94,7 @@ public class RepasitoJSON {
 		}
 
 	}
- 
+  
 	// ESCRITURA DE EMPLEADOS EN JSON
 	public void escribeEmpleadosLista(List<Empleado> lista, String rutaFIchero) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();

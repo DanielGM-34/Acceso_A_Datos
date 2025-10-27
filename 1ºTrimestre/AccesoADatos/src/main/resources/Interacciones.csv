@@ -1,0 +1,11 @@
+Identificador,Tipo,Peticion,Respuesta,TiempoEjecucion,Valoracion,PorcentajeAcierto
+0,HUMANO,¿Qué hora es?,Son las 19:11.,0.3,10.0,100.0
+1,IA,Son las 19:11.,¿Necesitas algo más?,0.2,9.0,98.0
+2,HUMANO,Define inteligencia artificial,¿Qué es la IA?,0.4,8.0,90.0
+3,IA,Es la simulación de procesos humanos por máquinas.,¿Quieres un ejemplo?,0.5,7.0,92.0
+4,HUMANO,¿Cuál es la capital de Japón?,¿Me puedes decir la capital?,0.3,6.0,85.0
+5,IA,Tokio.,¿Te interesa saber más sobre Japón?,0.2,11.0,99.0
+6,HUMANO,Cuéntame un chiste,¿Sabes algún chiste?,0.6,5.0,88.0
+7,IA,¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.,¿Te ha gustado?,0.4,12.0,97.0
+8,HUMANO,¿Qué es Java?,Explícame qué es Java.,0.7,9.0,93.0
+9,IA,Es un lenguaje de programación orientado a objetos.,¿Quieres ver un ejemplo de código?,0.5,10.0,96.0

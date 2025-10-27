@@ -1,9 +1,9 @@
-package TareaEval;
+package TareaEval.modelo;
 
 import java.util.Objects;
 
 import Boletin1Modelo.TipoAgente;
-
+ 
 public class InteraccionAgente implements Comparable<InteraccionAgente> {
 	private static int contador;
 	private int identificador;
@@ -135,7 +135,7 @@ public class InteraccionAgente implements Comparable<InteraccionAgente> {
 	@Override
 	public int compareTo(InteraccionAgente o) {
 	    return Double.compare(this.porcentajeAcierto, o.porcentajeAcierto);
-	}
+	} 
 
 	
 	

@@ -1,0 +1,92 @@
+[
+  {
+    "identificador": 0,
+    "tipo": "HUMANO",
+    "peticion": "¿Qué hora es?",
+    "respuesta": "Son las 19:11.",
+    "tiempoEjecucion": 0.3,
+    "numValoracionesPositivas": 10.0,
+    "porcentajeAcierto": 100.0
+  },
+  {
+    "identificador": 1,
+    "tipo": "IA",
+    "peticion": "Son las 19:11.",
+    "respuesta": "¿Necesitas algo más?",
+    "tiempoEjecucion": 0.2,
+    "numValoracionesPositivas": 9.0,
+    "porcentajeAcierto": 98.0
+  },
+  {
+    "identificador": 2,
+    "tipo": "HUMANO",
+    "peticion": "Define inteligencia artificial",
+    "respuesta": "¿Qué es la IA?",
+    "tiempoEjecucion": 0.4,
+    "numValoracionesPositivas": 8.0,
+    "porcentajeAcierto": 90.0
+  },
+  {
+    "identificador": 3,
+    "tipo": "IA",
+    "peticion": "Es la simulación de procesos humanos por máquinas.",
+    "respuesta": "¿Quieres un ejemplo?",
+    "tiempoEjecucion": 0.5,
+    "numValoracionesPositivas": 7.0,
+    "porcentajeAcierto": 92.0
+  },
+  {
+    "identificador": 4,
+    "tipo": "HUMANO",
+    "peticion": "¿Cuál es la capital de Japón?",
+    "respuesta": "¿Me puedes decir la capital?",
+    "tiempoEjecucion": 0.3,
+    "numValoracionesPositivas": 6.0,
+    "porcentajeAcierto": 85.0
+  },
+  {
+    "identificador": 5,
+    "tipo": "IA",
+    "peticion": "Tokio.",
+    "respuesta": "¿Te interesa saber más sobre Japón?",
+    "tiempoEjecucion": 0.2,
+    "numValoracionesPositivas": 11.0,
+    "porcentajeAcierto": 99.0
+  },
+  {
+    "identificador": 6,
+    "tipo": "HUMANO",
+    "peticion": "Cuéntame un chiste",
+    "respuesta": "¿Sabes algún chiste?",
+    "tiempoEjecucion": 0.6,
+    "numValoracionesPositivas": 5.0,
+    "porcentajeAcierto": 88.0
+  },
+  {
+    "identificador": 7,
+    "tipo": "IA",
+    "peticion": "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+    "respuesta": "¿Te ha gustado?",
+    "tiempoEjecucion": 0.4,
+    "numValoracionesPositivas": 12.0,
+    "porcentajeAcierto": 97.0
+  },
+  {
+    "identificador": 8,
+    "tipo": "HUMANO",
+    "peticion": "¿Qué es Java?",
+    "respuesta": "Explícame qué es Java.",
+    "tiempoEjecucion": 0.7,
+    "numValoracionesPositivas": 9.0,
+    "porcentajeAcierto": 93.0
+  },
+  {
+    "identificador": 9,
+    "tipo": "IA",
+    "peticion": "Es un lenguaje de programación orientado a objetos.",
+    "respuesta": "¿Quieres ver un ejemplo de código?",
+    "tiempoEjecucion": 0.5,
+    "numValoracionesPositivas": 10.0,
+    "porcentajeAcierto": 96.0
+  }
+]
