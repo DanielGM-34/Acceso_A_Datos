@@ -9,7 +9,7 @@ import TareaEval.repositorio.RepositorioInteracciones;
 public class ServicioInteracciones {
 
     private RepositorioInteracciones repositorio;
-
+ 
     public RepositorioInteracciones getRepositorio() {
         return repositorio;
     }
