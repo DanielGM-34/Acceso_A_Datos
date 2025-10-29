@@ -1,0 +1,7 @@
+2025-10-29 12:59:43.512 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - hello
+2025-10-29 13:25:59.782 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-10-29 13:27:34.404 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-10-29 13:29:28.278 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-10-29 13:29:51.845 [main] ERROR XML.DomEmpleado - El marcador en el documento que aparece tras el elemento raíz debe tener el formato correcto.
+2025-10-29 13:30:10.850 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-10-29 13:31:10.582 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
