@@ -260,7 +260,7 @@ public List<InteraccionAgente> obtenerListaFiltrada(TipoAgente tipo){
 
 	public void grabarResumenEstadistica(String rutaArchivo, List<InteraccionAgente> registros) {
 		FileWriter resumenEstadistica = null;
-		try {
+		try { 
 			resumenEstadistica = new FileWriter(rutaArchivo);
 			
 			List<InteraccionAgente> listaHum = obtenerListaFiltrada(TipoAgente.HUMANO);
@@ -275,7 +275,7 @@ public List<InteraccionAgente> obtenerListaFiltrada(TipoAgente tipo){
 			String guionIa = "- " + listaIa.size()+ /*metodo a implementar*/" han sido efectuadas por Humanos con una valoración media de " + calcularValoracionMediaPorTipo(TipoAgente.IA) + " y una tasa de acierto de " + calcularPorcentajeAciertoMedioPorTipo(TipoAgente.IA) + "%\n" ;
 			resumenEstadistica.write(ficheroCabecera);
 			resumenEstadistica.write(raya);
-			resumenEstadistica.write(totalInteracciones);
+			resumenEstadistica.write(totalInteracciones); 
 			resumenEstadistica.write(interaccionesHumanas);
 			resumenEstadistica.write(resto); 
 			resumenEstadistica.write(guionHumano); 

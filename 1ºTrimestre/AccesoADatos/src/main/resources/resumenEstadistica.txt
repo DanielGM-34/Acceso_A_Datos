@@ -1,7 +1,7 @@
 RESUMEN DE INTERACCIONES
 ---------------------------------------------------------------------
-Se han efectuado un total de 10 interacciones:
+Se han efectuado un total de 11 interacciones:
 Las interacciones que han tomado más tiempo han sido las efectuadas por Humanos con un tiempo medio 0.45999999999999996 segundos.
 De todas las interacciones:
 - 5 han sido efectuadas por Humanos con una valoración media de 7.6 y una tasa de acierto de 91.2%
-- 5 han sido efectuadas por Humanos con una valoración media de 9.8 y una tasa de acierto de 96.4%
+- 6 han sido efectuadas por Humanos con una valoración media de 11.5 y una tasa de acierto de 91.33333333333333%

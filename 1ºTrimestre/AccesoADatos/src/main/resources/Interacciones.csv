@@ -9,3 +9,4 @@ Identificador,Tipo,Peticion,Respuesta,TiempoEjecucion,Valoracion,PorcentajeAcier
 7,IA,¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.,¿Te ha gustado?,0.4,12.0,97.0
 8,HUMANO,¿Qué es Java?,Explícame qué es Java.,0.7,9.0,93.0
 9,IA,Es un lenguaje de programación orientado a objetos.,¿Quieres ver un ejemplo de código?,0.5,10.0,96.0
+10,IA,Es un lenguaje de programación orientado a objetos.,¿Quieres ver un ejemplo de código?,50.0,20.0,66.0

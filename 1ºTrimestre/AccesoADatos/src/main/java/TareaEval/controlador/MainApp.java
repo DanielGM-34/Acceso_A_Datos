@@ -6,7 +6,6 @@ import java.util.Map;
  
 import Boletin1Modelo.TipoAgente;
 import TareaEval.modelo.InteraccionAgente;
-import TareaEval.modelo.TipoAgenteEval;
 import TareaEval.repositorio.RepositorioInteracciones;
 import TareaEval.servicio.ServicioInteracciones;
 
@@ -23,7 +22,8 @@ public class MainApp {
         InteraccionAgente ia8 = new InteraccionAgente(TipoAgente.IA, "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.", "¿Te ha gustado?", 0.4, 12, 97.0);
         InteraccionAgente ia9 = new InteraccionAgente(TipoAgente.HUMANO, "¿Qué es Java?", "Explícame qué es Java.", 0.7, 9, 93.0);
         InteraccionAgente ia10 = new InteraccionAgente(TipoAgente.IA, "Es un lenguaje de programación orientado a objetos.", "¿Quieres ver un ejemplo de código?", 0.5, 10, 96.0);
- 
+        InteraccionAgente ia11 = new InteraccionAgente(TipoAgente.IA, "Es un lenguaje de programación orientado a objetos.", "¿Quieres ver un ejemplo de código?", 50, 20, 66.0);
+
         System.out.println(ia1);
         System.out.println(ia2);
         System.out.println(ia3);
@@ -34,6 +34,8 @@ public class MainApp {
         System.out.println(ia8); 
         System.out.println(ia9);
         System.out.println(ia10);
+        System.out.println(ia11);
+
 
         RepositorioInteracciones p9 = new RepositorioInteracciones();
         ServicioInteracciones servicio = new ServicioInteracciones(p9);
@@ -48,6 +50,8 @@ public class MainApp {
         p9.agregaInteraccionARegistro(ia8);
         p9.agregaInteraccionARegistro(ia9);
         p9.agregaInteraccionARegistro(ia10);
+        p9.agregaInteraccionARegistro(ia11);
+
 
         InteraccionAgente mejor = servicio.obtenerMejorValorada();
         System.out.println("===============");

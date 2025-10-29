@@ -88,5 +88,14 @@
     "tiempoEjecucion": 0.5,
     "numValoracionesPositivas": 10.0,
     "porcentajeAcierto": 96.0
+  },
+  {
+    "identificador": 10,
+    "tipo": "IA",
+    "peticion": "Es un lenguaje de programación orientado a objetos.",
+    "respuesta": "¿Quieres ver un ejemplo de código?",
+    "tiempoEjecucion": 50.0,
+    "numValoracionesPositivas": 20.0,
+    "porcentajeAcierto": 66.0
   }
 ]
