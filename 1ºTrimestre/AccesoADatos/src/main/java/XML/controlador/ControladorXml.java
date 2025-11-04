@@ -13,13 +13,14 @@ public class ControladorXml{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		DomEmpleado xmlEmpl = new DomEmpleado();
-		try {
+		try { 
 			Empleado e = xmlEmpl.leerEmpleadoDesdeXML("empleado.xml");
-			logger.info(e.toString());
+			logger.info(e.toString()); 
+		
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	}
+	} 
 
 }

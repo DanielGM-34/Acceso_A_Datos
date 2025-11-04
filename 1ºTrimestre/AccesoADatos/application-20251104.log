@@ -1,0 +1,32 @@
+2025-11-04 10:17:40.169 [main] INFO  XML.DomEmpleado - hello
+2025-11-04 10:17:53.119 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:20:31.322 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:20:49.315 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:20:49.317 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:21:13.259 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:21:13.261 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:21:32.159 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:21:32.161 [main] INFO  XML.DomEmpleado - Empleado [identificador=E001, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:24:43.948 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Cristofer, edad=39, empresa=OpenAI]
+2025-11-04 10:26:02.012 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:28:26.680 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:31:25.850 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:40:01.256 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:40:01.265 [main] ERROR XML.DomEmpleado - Final de archivo prematuro.
+2025-11-04 10:40:26.262 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 10:58:38.141 [main] ERROR vista.xml.XMLDomPeliculas - C:\Users\alumno\Desktop\2DAM\Acceso_A_Datos\1ºTrimestre\AccesoADatos\src\main\resources\src\main\resources\pelicula.xml (El sistema no puede encontrar la ruta especificada)
+2025-11-04 11:38:10.194 [main] ERROR vista.xml.XMLDomPeliculas - C:\Users\alumno\Desktop\2DAM\Acceso_A_Datos\1ºTrimestre\AccesoADatos\src\main\resources\src\main\resources\pelicula.xml (El sistema no puede encontrar la ruta especificada)
+2025-11-04 11:38:37.966 [main] ERROR vista.xml.XMLDomPeliculas - C:\Users\alumno\Desktop\2DAM\Acceso_A_Datos\1ºTrimestre\AccesoADatos\src\main\resources\src\main\resources\peliculas.xml (El sistema no puede encontrar la ruta especificada)
+2025-11-04 11:40:15.996 [main] ERROR vista.xml.XMLDomPeliculas - C:\Users\alumno\Desktop\2DAM\Acceso_A_Datos\1ºTrimestre\AccesoADatos\src\main\resources\src\main\resources\peliculas.xml (El sistema no puede encontrar la ruta especificada)
+2025-11-04 11:40:37.964 [main] ERROR vista.xml.XMLDomPeliculas - C:\Users\alumno\Desktop\2DAM\Acceso_A_Datos\1ºTrimestre\AccesoADatos\src\main\resources\src\main\resources\peliculas.xml (El sistema no puede encontrar la ruta especificada)
+2025-11-04 12:24:31.727 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 12:24:45.789 [main] INFO  XML.DomEmpleado - Empleado [identificador=1212121, nombreApellido=Pepe Torrente, edad=35, empresa=Google]
+2025-11-04 12:25:07.661 [main] INFO  XML.DomEmpleado - Empleado [identificador=1212121, nombreApellido=Pepe Torrente, edad=35, empresa=Google]
+2025-11-04 12:25:17.223 [main] INFO  XML.DomEmpleado - Empleado [identificador=1212121, nombreApellido=Pepe Torrente, edad=35, empresa=Google]
+2025-11-04 12:25:39.098 [main] INFO  XML.DomEmpleado - Empleado [identificador=1212121, nombreApellido=Pepe Torrente, edad=35, empresa=Google]
+2025-11-04 12:25:54.646 [main] INFO  XML.DomEmpleado - Empleado [identificador=1212121, nombreApellido=Pepe Torrente, edad=35, empresa=Google]
+2025-11-04 12:26:04.504 [main] ERROR XML.DomEmpleado - Final de archivo prematuro.
+2025-11-04 12:26:10.339 [main] INFO  XML.DomEmpleado - Empleado [identificador=1212121, nombreApellido=Pepe Torrente, edad=35, empresa=Google]
+2025-11-04 12:31:32.433 [main] ERROR XML.DomEmpleado - El contenido no está permitido en la sección final.
+2025-11-04 12:32:03.992 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-04 12:32:27.177 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]

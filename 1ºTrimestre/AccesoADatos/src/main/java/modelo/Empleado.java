@@ -5,6 +5,24 @@ public class Empleado {
 	private String nombreApellido;
 	private int edad;
 	private String empresa;
+	
+	
+
+	public Empleado() {
+		super();
+	}
+	
+	
+
+	public Empleado(String identificador, String nombreApellido, int edad, String empresa) {
+		super();
+		this.identificador = identificador;
+		this.nombreApellido = nombreApellido;
+		this.edad = edad;
+		this.empresa = empresa;
+	}
+
+
 
 	public String getIdentificador() {
 		return identificador;
