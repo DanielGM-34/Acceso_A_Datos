@@ -1,0 +1,231 @@
+2025-11-09 16:27:08.003 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 16:28:26.671 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 16:29:41.649 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 16:30:09.249 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: ProductosFinal.xml
+2025-11-09 16:32:05.729 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 16:32:26.097 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: Productos.xml
+2025-11-09 18:57:57.484 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 18:58:19.259 [main] INFO  utiles.XMLDomProductos - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 19:38:31.327 [main] INFO  controlador.GestionaProductos - Leyendo productos desde XML...
+2025-11-09 19:38:31.331 [main] INFO  controlador.GestionaProductos - Agregando productos al repositorio...
+2025-11-09 19:38:31.331 [main] INFO  controlador.GestionaProductos - Producto agregado: Producto 2
+2025-11-09 19:38:31.331 [main] INFO  controlador.GestionaProductos - Producto agregado: Producto 3
+2025-11-09 19:38:31.331 [main] INFO  controlador.GestionaProductos - Producto agregado: Producto 4
+2025-11-09 19:38:31.331 [main] INFO  controlador.GestionaProductos - Producto agregado: poll
+2025-11-09 19:38:31.331 [main] INFO  controlador.GestionaProductos - Filtrando productos con stock < 5...
+2025-11-09 19:38:31.331 [main] INFO  controlador.GestionaProductos - Retirando de venta productos con stock < 5...
+2025-11-09 19:38:31.332 [main] INFO  controlador.GestionaProductos - Generando JSON de productos NO en venta...
+2025-11-09 19:38:31.363 [main] INFO  controlador.GestionaProductos - Generando XML de productos NO en venta...
+2025-11-09 19:38:31.364 [main] INFO  controlador.GestionaProductos - Proceso completado correctamente.
+2025-11-09 19:40:49.323 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 19:41:06.612 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 19:46:37.831 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 19:46:37.833 [main] INFO  controlador.GestionaProductos - ✅ XML actualizado exportado como ProductosActualizados.xml
+2025-11-09 19:46:37.833 [main] INFO  controlador.GestionaProductos - 
+📦 Lista de productos:
+2025-11-09 19:46:37.833 [main] INFO  controlador.GestionaProductos - Producto [id=2, enVenta=true, nombre=Producto 2, precio=15.0, stock=10]
+2025-11-09 19:46:37.833 [main] INFO  controlador.GestionaProductos - Producto [id=3, enVenta=false, nombre=Producto 3, precio=25.0, stock=0]
+2025-11-09 19:46:37.833 [main] INFO  controlador.GestionaProductos - Producto [id=4, enVenta=true, nombre=Producto 4, precio=5.75, stock=50]
+2025-11-09 19:46:37.833 [main] INFO  controlador.GestionaProductos - Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 19:46:37.833 [main] INFO  controlador.GestionaProductos - 
+🔍 Buscar producto por ID: 
+2025-11-09 19:46:41.323 [main] INFO  controlador.GestionaProductos - ✅ Producto encontrado: Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 19:46:41.323 [main] INFO  controlador.GestionaProductos - 
+🗑️ Eliminar producto por ID: 
+2025-11-09 19:46:44.523 [main] INFO  controlador.GestionaProductos - ✅ Producto eliminado.
+2025-11-09 19:46:44.523 [main] INFO  controlador.GestionaProductos - 
+➕ Agregar nuevo producto:
+2025-11-09 19:46:44.523 [main] INFO  controlador.GestionaProductos - ID: 
+2025-11-09 19:46:54.947 [main] INFO  controlador.GestionaProductos - Nombre: 
+2025-11-09 19:46:59.003 [main] INFO  controlador.GestionaProductos - Precio: 
+2025-11-09 19:47:00.811 [main] INFO  controlador.GestionaProductos - Stock: 
+2025-11-09 19:47:02.683 [main] INFO  controlador.GestionaProductos - ✅ Producto agregado.
+2025-11-09 19:47:02.685 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 19:47:02.685 [main] INFO  controlador.GestionaProductos - 📤 XML final exportado como ProductosFff.xml
+2025-11-09 19:52:55.600 [main] INFO  servicio.ServicioProductos - 📥 Productos cargados desde XML: Productos.xml
+2025-11-09 19:52:55.602 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 3
+2025-11-09 19:52:55.602 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 1
+2025-11-09 19:52:55.614 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 19:52:55.614 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosActualizados.xml
+2025-11-09 19:52:55.614 [main] INFO  controlador.GestionaProductos - ✅ XML actualizado exportado como ProductosActualizados.xml
+2025-11-09 19:52:55.614 [main] INFO  controlador.GestionaProductos - 
+📦 Lista de productos:
+2025-11-09 19:52:55.614 [main] INFO  controlador.GestionaProductos - Producto [id=2, enVenta=true, nombre=Producto 2, precio=15.0, stock=10]
+2025-11-09 19:52:55.615 [main] INFO  controlador.GestionaProductos - Producto [id=3, enVenta=false, nombre=Producto 3, precio=25.0, stock=0]
+2025-11-09 19:52:55.615 [main] INFO  controlador.GestionaProductos - Producto [id=4, enVenta=true, nombre=Producto 4, precio=5.75, stock=50]
+2025-11-09 19:52:55.615 [main] INFO  controlador.GestionaProductos - Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 19:52:55.615 [main] INFO  controlador.GestionaProductos - 
+🔍 Buscar producto por ID: 
+2025-11-09 19:53:08.195 [main] INFO  servicio.ServicioProductos - 🔍 Producto encontrado: 1
+2025-11-09 19:53:08.195 [main] INFO  controlador.GestionaProductos - ✅ Producto encontrado: Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 19:53:08.195 [main] INFO  controlador.GestionaProductos - 
+🗑️ Eliminar producto por ID: 
+2025-11-09 19:53:19.947 [main] INFO  servicio.ServicioProductos - 🗑️ Producto eliminado: 1
+2025-11-09 19:53:19.947 [main] INFO  controlador.GestionaProductos - ✅ Producto eliminado.
+2025-11-09 19:53:19.947 [main] INFO  controlador.GestionaProductos - 
+➕ Agregar nuevo producto:
+2025-11-09 19:53:19.947 [main] INFO  controlador.GestionaProductos - ID: 
+2025-11-09 19:53:23.139 [main] INFO  controlador.GestionaProductos - Nombre: 
+2025-11-09 19:53:28.179 [main] INFO  controlador.GestionaProductos - Precio: 
+2025-11-09 19:53:31.083 [main] INFO  controlador.GestionaProductos - Stock: 
+2025-11-09 19:53:33.468 [main] INFO  servicio.ServicioProductos - ➕ Producto agregado: 1
+2025-11-09 19:53:33.468 [main] INFO  controlador.GestionaProductos - ✅ Producto agregado.
+2025-11-09 19:53:33.469 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 19:53:33.469 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosFff.xml
+2025-11-09 19:53:33.469 [main] INFO  controlador.GestionaProductos - 📤 XML final exportado como ProductosFff.xml
+2025-11-09 19:53:33.495 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/ProductosFinal.json
+2025-11-09 19:53:33.495 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a JSON: src/main/resources/ProductosFinal.json
+2025-11-09 19:53:33.495 [main] INFO  controlador.GestionaProductos - 📤 JSON final exportado como ProductosFinal.json
+2025-11-09 19:54:21.971 [main] INFO  servicio.ServicioProductos - 📥 Productos cargados desde XML: Productos.xml
+2025-11-09 19:54:21.973 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 3
+2025-11-09 19:54:21.973 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 1
+2025-11-09 19:54:21.985 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 19:54:21.985 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosActualizados.xml
+2025-11-09 19:54:21.985 [main] INFO  controlador.GestionaProductos - ✅ XML actualizado exportado como ProductosActualizados.xml
+2025-11-09 19:54:21.985 [main] INFO  controlador.GestionaProductos - 
+📦 Lista de productos:
+2025-11-09 19:54:21.985 [main] INFO  controlador.GestionaProductos - Producto [id=2, enVenta=true, nombre=Producto 2, precio=15.0, stock=10]
+2025-11-09 19:54:21.985 [main] INFO  controlador.GestionaProductos - Producto [id=3, enVenta=false, nombre=Producto 3, precio=25.0, stock=0]
+2025-11-09 19:54:21.985 [main] INFO  controlador.GestionaProductos - Producto [id=4, enVenta=true, nombre=Producto 4, precio=5.75, stock=50]
+2025-11-09 19:54:21.985 [main] INFO  controlador.GestionaProductos - Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 19:54:21.985 [main] INFO  controlador.GestionaProductos - 
+🔍 Buscar producto por ID: 
+2025-11-09 19:54:23.787 [main] INFO  servicio.ServicioProductos - 🔍 Producto encontrado: 1
+2025-11-09 19:54:23.787 [main] INFO  controlador.GestionaProductos - ✅ Producto encontrado: Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 19:54:23.787 [main] INFO  controlador.GestionaProductos - 
+🗑️ Eliminar producto por ID: 
+2025-11-09 19:54:24.035 [main] INFO  servicio.ServicioProductos - 🗑️ Producto eliminado: 1
+2025-11-09 19:54:24.035 [main] INFO  controlador.GestionaProductos - ✅ Producto eliminado.
+2025-11-09 19:54:24.035 [main] INFO  controlador.GestionaProductos - 
+➕ Agregar nuevo producto:
+2025-11-09 19:54:24.035 [main] INFO  controlador.GestionaProductos - ID: 
+2025-11-09 19:54:24.283 [main] INFO  controlador.GestionaProductos - Nombre: 
+2025-11-09 19:54:24.531 [main] INFO  controlador.GestionaProductos - Precio: 
+2025-11-09 19:54:24.755 [main] INFO  controlador.GestionaProductos - Stock: 
+2025-11-09 19:54:24.948 [main] INFO  servicio.ServicioProductos - ➕ Producto agregado: 1
+2025-11-09 19:54:24.948 [main] INFO  controlador.GestionaProductos - ✅ Producto agregado.
+2025-11-09 19:54:24.949 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 19:54:24.949 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosFff.xml
+2025-11-09 19:54:24.949 [main] INFO  controlador.GestionaProductos - 📤 XML final exportado como ProductosFff.xml
+2025-11-09 19:54:24.975 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/ProductosFinal.json
+2025-11-09 19:54:24.976 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a JSON: src/main/resources/ProductosFinal.json
+2025-11-09 19:54:24.976 [main] INFO  controlador.GestionaProductos - 📤 JSON final exportado como ProductosFinal.json
+2025-11-09 20:00:38.878 [main] INFO  servicio.ServicioProductos - 📥 Productos cargados desde XML: Productos.xml
+2025-11-09 20:00:38.880 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 3
+2025-11-09 20:00:38.880 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 1
+2025-11-09 20:00:38.891 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 20:00:38.891 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosActualizados.xml
+2025-11-09 20:00:38.891 [main] INFO  controlador.GestionaProductos - ✅ XML actualizado exportado como ProductosActualizados.xml
+2025-11-09 20:00:38.891 [main] INFO  controlador.GestionaProductos - 
+📦 Lista de productos:
+2025-11-09 20:00:38.891 [main] INFO  controlador.GestionaProductos - Producto [id=2, enVenta=true, nombre=Producto 2, precio=15.0, stock=10]
+2025-11-09 20:00:38.891 [main] INFO  controlador.GestionaProductos - Producto [id=3, enVenta=false, nombre=Producto 3, precio=25.0, stock=0]
+2025-11-09 20:00:38.891 [main] INFO  controlador.GestionaProductos - Producto [id=4, enVenta=true, nombre=Producto 4, precio=5.75, stock=50]
+2025-11-09 20:00:38.893 [main] INFO  controlador.GestionaProductos - Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 20:00:38.893 [main] INFO  controlador.GestionaProductos - 
+🔍 Buscar producto por ID: 
+2025-11-09 20:00:40.587 [main] INFO  servicio.ServicioProductos - ❌ Producto no encontrado: 5
+2025-11-09 20:00:40.587 [main] INFO  controlador.GestionaProductos - ❌ No se encontró ningún producto con ID: 5
+2025-11-09 20:00:40.587 [main] INFO  controlador.GestionaProductos - 
+🗑️ Eliminar producto por ID: 
+2025-11-09 20:00:44.267 [main] INFO  servicio.ServicioProductos - ❌ No se pudo eliminar: 5
+2025-11-09 20:00:44.267 [main] INFO  controlador.GestionaProductos - ❌ No se pudo eliminar. ID no encontrado.
+2025-11-09 20:00:44.267 [main] INFO  controlador.GestionaProductos - 
+➕ Agregar nuevo producto:
+2025-11-09 20:00:44.267 [main] INFO  controlador.GestionaProductos - ID: 
+2025-11-09 20:00:51.515 [main] INFO  controlador.GestionaProductos - Nombre: 
+2025-11-09 20:00:54.051 [main] INFO  controlador.GestionaProductos - Precio: 
+2025-11-09 20:00:56.403 [main] INFO  controlador.GestionaProductos - Stock: 
+2025-11-09 20:00:58.627 [main] INFO  servicio.ServicioProductos - ➕ Producto agregado: 5
+2025-11-09 20:00:58.628 [main] INFO  controlador.GestionaProductos - ✅ Producto agregado.
+2025-11-09 20:00:58.629 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 20:00:58.629 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosFff.xml
+2025-11-09 20:00:58.629 [main] INFO  controlador.GestionaProductos - 📤 XML final exportado como ProductosFff.xml
+2025-11-09 20:00:58.659 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/ProductosFinal.json
+2025-11-09 20:00:58.660 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a JSON: src/main/resources/ProductosFinal.json
+2025-11-09 20:00:58.660 [main] INFO  controlador.GestionaProductos - 📤 JSON final exportado como ProductosFinal.json
+2025-11-09 20:00:58.660 [main] INFO  controlador.GestionaProductos - Filtrando productos con stock < 5...
+2025-11-09 20:00:58.660 [main] INFO  servicio.ServicioProductos - 🔎 Productos con stock menor a 5: 3
+2025-11-09 20:00:58.660 [main] INFO  controlador.GestionaProductos - Generando JSON de productos NO en venta...
+2025-11-09 20:00:58.660 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/productosNOenVenta.json
+2025-11-09 20:01:51.554 [main] INFO  servicio.ServicioProductos - 📥 Productos cargados desde XML: Productos.xml
+2025-11-09 20:01:51.555 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 3
+2025-11-09 20:01:51.555 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 1
+2025-11-09 20:01:51.567 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 20:01:51.567 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosActualizados.xml
+2025-11-09 20:01:51.567 [main] INFO  controlador.GestionaProductos - ✅ XML actualizado exportado como ProductosActualizados.xml
+2025-11-09 20:01:51.567 [main] INFO  controlador.GestionaProductos - 
+📦 Lista de productos:
+2025-11-09 20:01:51.568 [main] INFO  controlador.GestionaProductos - Producto [id=2, enVenta=true, nombre=Producto 2, precio=15.0, stock=10]
+2025-11-09 20:01:51.568 [main] INFO  controlador.GestionaProductos - Producto [id=3, enVenta=false, nombre=Producto 3, precio=25.0, stock=0]
+2025-11-09 20:01:51.568 [main] INFO  controlador.GestionaProductos - Producto [id=4, enVenta=true, nombre=Producto 4, precio=5.75, stock=50]
+2025-11-09 20:01:51.568 [main] INFO  controlador.GestionaProductos - Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 20:01:51.568 [main] INFO  controlador.GestionaProductos - 
+🔍 Buscar producto por ID: 
+2025-11-09 20:01:52.708 [main] INFO  servicio.ServicioProductos - ❌ Producto no encontrado: 5
+2025-11-09 20:01:52.708 [main] INFO  controlador.GestionaProductos - ❌ No se encontró ningún producto con ID: 5
+2025-11-09 20:01:52.708 [main] INFO  controlador.GestionaProductos - 
+🗑️ Eliminar producto por ID: 
+2025-11-09 20:01:53.364 [main] INFO  servicio.ServicioProductos - ❌ No se pudo eliminar: 5
+2025-11-09 20:01:53.364 [main] INFO  controlador.GestionaProductos - ❌ No se pudo eliminar. ID no encontrado.
+2025-11-09 20:01:53.364 [main] INFO  controlador.GestionaProductos - 
+➕ Agregar nuevo producto:
+2025-11-09 20:01:53.364 [main] INFO  controlador.GestionaProductos - ID: 
+2025-11-09 20:01:55.195 [main] INFO  controlador.GestionaProductos - Nombre: 
+2025-11-09 20:01:57.819 [main] INFO  controlador.GestionaProductos - Precio: 
+2025-11-09 20:02:01.779 [main] INFO  controlador.GestionaProductos - Stock: 
+2025-11-09 20:02:04.012 [main] INFO  servicio.ServicioProductos - ➕ Producto agregado: 5
+2025-11-09 20:02:04.012 [main] INFO  controlador.GestionaProductos - ✅ Producto agregado.
+2025-11-09 20:02:04.013 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 20:02:04.013 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosFff.xml
+2025-11-09 20:02:04.013 [main] INFO  controlador.GestionaProductos - 📤 XML final exportado como ProductosFff.xml
+2025-11-09 20:02:04.038 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/ProductosFinal.json
+2025-11-09 20:02:04.039 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a JSON: src/main/resources/ProductosFinal.json
+2025-11-09 20:02:04.039 [main] INFO  controlador.GestionaProductos - 📤 JSON final exportado como ProductosFinal.json
+2025-11-09 20:02:04.039 [main] INFO  controlador.GestionaProductos - Filtrando productos con stock < 5...
+2025-11-09 20:02:04.039 [main] INFO  servicio.ServicioProductos - 🔎 Productos con stock menor a 5: 3
+2025-11-09 20:02:04.039 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 3
+2025-11-09 20:02:04.039 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 1
+2025-11-09 20:02:04.039 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 5
+2025-11-09 20:02:04.039 [main] INFO  controlador.GestionaProductos - Generando JSON de productos NO en venta...
+2025-11-09 20:02:04.039 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/productosNOenVenta.json
+2025-11-09 20:03:28.289 [main] INFO  servicio.ServicioProductos - 📥 Productos cargados desde XML: Productos.xml
+2025-11-09 20:03:28.291 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 3
+2025-11-09 20:03:28.291 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 1
+2025-11-09 20:03:28.303 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosActualizados.xml
+2025-11-09 20:03:28.303 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosActualizados.xml
+2025-11-09 20:03:28.303 [main] INFO  controlador.GestionaProductos - ✅ XML actualizado exportado como ProductosActualizados.xml
+2025-11-09 20:03:28.303 [main] INFO  controlador.GestionaProductos - 
+📦 Lista de productos:
+2025-11-09 20:03:28.303 [main] INFO  controlador.GestionaProductos - Producto [id=2, enVenta=true, nombre=Producto 2, precio=15.0, stock=10]
+2025-11-09 20:03:28.303 [main] INFO  controlador.GestionaProductos - Producto [id=3, enVenta=false, nombre=Producto 3, precio=25.0, stock=0]
+2025-11-09 20:03:28.303 [main] INFO  controlador.GestionaProductos - Producto [id=4, enVenta=true, nombre=Producto 4, precio=5.75, stock=50]
+2025-11-09 20:03:28.303 [main] INFO  controlador.GestionaProductos - Producto [id=1, enVenta=false, nombre=poll, precio=7.0, stock=4]
+2025-11-09 20:03:28.303 [main] INFO  controlador.GestionaProductos - 
+🔍 Buscar producto por ID: 
+2025-11-09 20:03:29.668 [main] INFO  servicio.ServicioProductos - ❌ Producto no encontrado: 5
+2025-11-09 20:03:29.668 [main] INFO  controlador.GestionaProductos - ❌ No se encontró ningún producto con ID: 5
+2025-11-09 20:03:29.668 [main] INFO  controlador.GestionaProductos - 
+🗑️ Eliminar producto por ID: 
+2025-11-09 20:03:32.836 [main] INFO  servicio.ServicioProductos - ❌ No se pudo eliminar: 5
+2025-11-09 20:03:32.836 [main] INFO  controlador.GestionaProductos - ❌ No se pudo eliminar. ID no encontrado.
+2025-11-09 20:03:32.836 [main] INFO  controlador.GestionaProductos - 
+➕ Agregar nuevo producto:
+2025-11-09 20:03:32.836 [main] INFO  controlador.GestionaProductos - ID: 
+2025-11-09 20:03:34.924 [main] INFO  controlador.GestionaProductos - Nombre: 
+2025-11-09 20:03:40.732 [main] INFO  controlador.GestionaProductos - Precio: 
+2025-11-09 20:03:43.532 [main] INFO  controlador.GestionaProductos - Stock: 
+2025-11-09 20:03:53.052 [main] INFO  servicio.ServicioProductos - ➕ Producto agregado: 5
+2025-11-09 20:03:53.052 [main] INFO  controlador.GestionaProductos - ✅ Producto agregado.
+2025-11-09 20:03:53.053 [main] INFO  utiles.XMLDomProductosDani - 📤 XML generado correctamente: ProductosFff.xml
+2025-11-09 20:03:53.053 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a XML: ProductosFff.xml
+2025-11-09 20:03:53.053 [main] INFO  controlador.GestionaProductos - 📤 XML final exportado como ProductosFff.xml
+2025-11-09 20:03:53.080 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/ProductosFinal.json
+2025-11-09 20:03:53.080 [main] INFO  servicio.ServicioProductos - 📤 Productos exportados a JSON: src/main/resources/ProductosFinal.json
+2025-11-09 20:03:53.080 [main] INFO  controlador.GestionaProductos - 📤 JSON final exportado como ProductosFinal.json
+2025-11-09 20:03:53.080 [main] INFO  controlador.GestionaProductos - Filtrando productos con stock < 5...
+2025-11-09 20:03:53.080 [main] INFO  servicio.ServicioProductos - 🔎 Productos con stock menor a 5: 2
+2025-11-09 20:03:53.080 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 3
+2025-11-09 20:03:53.080 [main] INFO  servicio.ServicioProductos - 🚫 Producto retirado de venta por bajo stock: 1
+2025-11-09 20:03:53.080 [main] INFO  controlador.GestionaProductos - Generando JSON de productos NO en venta...
+2025-11-09 20:03:53.080 [main] INFO  utiles.UtilJSON - ✅ Productos escritos en JSON: src/main/resources/productosNOenVenta.json

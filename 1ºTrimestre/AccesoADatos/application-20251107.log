@@ -1,0 +1,5 @@
+2025-11-07 23:55:02.581 [main] INFO  XML.DomEmpleado - Empleado [identificador=, nombreApellido=Juan Haro, edad=30, empresa=OpenAI]
+2025-11-07 23:55:37.759 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+2025-11-07 23:55:37.761 [main] INFO  tema1Ficheros.Ejercicio1 - 3
+2025-11-07 23:58:31.374 [main] WARN  Boletin2FicherosFoldes.GestionaFicheros - Error al validar carpetas: Directorio no válido.:prueba2
+2025-11-07 23:59:23.232 [main] INFO  Boletin2FicherosFoldes.GestionaFicheros - ResultadoComparacion [nombreArchivo=Información sobre Marian (chica de.txt, Valor=FALTA_EN_2]

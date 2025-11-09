@@ -11,14 +11,14 @@ public class GestionCombinaciones {
 		GestionCombinaciones a = new GestionCombinaciones(); 
 		Utiles p = new Utiles();
 		
-		
+		 
 		List<Combinaciones> pepe = p.leerCombinacionesCSV("src/main/resources/Euromillones.csv");
 		
 		HistoricoCombinaciones combis = new HistoricoCombinaciones(pepe); 
 		
 		System.out.println(pepe.getFirst());
 		System.out.println(pepe.getLast()); 
-		
+		  
 		EuromillonesServicio o = new EuromillonesServicio();
 		System.out.println(o.combinacionMasFrecuente()); 
 		

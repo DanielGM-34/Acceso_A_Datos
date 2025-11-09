@@ -30,6 +30,7 @@ public class DomEmpleado {
 
 	public static void main(String[] args) {
 		logger.info("hello"); 
+		logger.debug("helo");
 	}
 
 	/*
@@ -48,7 +49,7 @@ public class DomEmpleado {
 	
 	public List<Empleado> leerEmpleadosDesdeXML(String rutaFichero) throws Exception {
 		List<Empleado> empleados = new ArrayList<Empleado>();
-		// 1. Calcula el dom
+		// 1. Calcula el dom 
 		Document doc = getDocumentFromXML(rutaFichero);
 		// 2. Obtener todos los nodos con etiqueta empleados
 		NodeList nodosEmpleados = doc.getElementsByTagName("empleado");
@@ -89,7 +90,7 @@ public class DomEmpleado {
 	
 	//Único método a modificar
 	private Empleado getEmpleadoFromElement(Element elemento) {
-		Empleado e = new Empleado();
+		Empleado e = new Empleado(); 
 		String nombre = elemento.getElementsByTagName("nombreApellido").item(0).getTextContent();
 		int edad = Integer.parseInt(elemento.getElementsByTagName("edad").item(0).getTextContent());
 		String empresa = elemento.getElementsByTagName("empresa").item(0).getTextContent();
@@ -100,7 +101,7 @@ public class DomEmpleado {
 		e.setEmpresa(empresa);
 		return e;
 	}
-
+ 
 	private Document construyoObjetoDocumento(String nombreRaiz) throws ParserConfigurationException {
 		Document documento = null;
 		DocumentBuilderFactory factoria = DocumentBuilderFactory.newInstance();
@@ -121,8 +122,9 @@ public class DomEmpleado {
 		return elemento;
 	}
 
+	
 	private void agregaEmpleadoADocumento(Document documento, Element padre, Empleado e) {
-		// Para cada una de los atributos de persona, creo un elemento hijo
+		// Para cada una de los atributos de persona, creo un elemento hijo 
 		Element nombre = this.creaElemento("nombreApellido", e.getNombreApellido(), padre, documento);
 		Element edad = this.creaElemento("edad", Integer.toString(e.getEdad()), padre, documento);
 		Element empresa = this.creaElemento("empresa", e.getEmpresa(), padre, documento);
@@ -130,6 +132,8 @@ public class DomEmpleado {
 		padre.setAttribute("identificador", e.getIdentificador());
 	}
 
+	
+	
 	public void escribeEmpleadoEnXML(String nombreFichero, Empleado e) {
 		try {
 			Document documento = this.construyoObjetoDocumento("empleado");
