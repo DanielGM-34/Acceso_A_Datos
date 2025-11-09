@@ -9,7 +9,7 @@ import java.util.List;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import modelo.Empleado;
+import modelo.Empleado; 
 
 public class RepasitoJSON {
 	private static final String rutaResources = "src/main/resources/";
