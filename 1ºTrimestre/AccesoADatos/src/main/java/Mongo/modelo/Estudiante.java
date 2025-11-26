@@ -8,6 +8,23 @@ public class Estudiante {
 	private String name;
 	private double notaMedia;
 	private List<String> aficiones;
+	private Address addres;
+	private List<Scores> scores;
+
+	public Estudiante() {
+		super();
+	}
+
+	public Estudiante(int id, String name, double notaMedia, List<String> aficiones, Address addres,
+			List<Scores> scores) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.notaMedia = notaMedia;
+		this.aficiones = aficiones;
+		this.addres = addres;
+		this.scores = scores;
+	}
 
 	public int getId() {
 		return id;
@@ -41,21 +58,26 @@ public class Estudiante {
 		this.aficiones = aficiones;
 	}
 
-	public Estudiante() {
-		this.aficiones = new ArrayList<String>();
+	public Address getAddres() {
+		return addres;
 	}
 
-	public Estudiante(int id, String name, double notaMedia, List<String> aficiones) {
-		this.id = id;
-		this.name = name;
-		this.notaMedia = notaMedia;
-		this.aficiones = aficiones;
+	public void setAddres(Address addres) {
+		this.addres = addres;
 	}
-	// TODO
+
+	public List<Scores> getScores() {
+		return scores;
+	}
+
+	public void setScores(List<Scores> scores) {
+		this.scores = scores;
+	}
 
 	@Override
 	public String toString() {
 		return "Estudiante [id=" + id + ", name=" + name + ", notaMedia=" + notaMedia + ", aficiones=" + aficiones
-				+ "]";
+				+ ", addres=" + addres + ", scores=" + scores + "]";
 	}
+
 }

@@ -5,9 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
 import Boletin1Modelo.TipoAgente;
 import TareaEval.modelo.InteraccionAgente;
 import modelo.Empleado; 
@@ -181,7 +178,7 @@ public List<InteraccionAgente> obtenerListaFiltrada(TipoAgente tipo){
 	// ESCRITURA DE EMPLEADOS EN JSON
 	public void escribeInteraccionesLista(List<InteraccionAgente> lista, String rutaFIchero) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-
+ 
 		String json = gson.toJson(lista);
 		FileWriter ficheroAescribir = null;
 		try {
