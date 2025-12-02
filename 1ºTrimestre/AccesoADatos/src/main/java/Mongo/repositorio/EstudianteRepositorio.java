@@ -102,9 +102,9 @@ public class EstudianteRepositorio {
 	            Address dire = new Address(
 	                addresDoc.getString("city"),
 	                addresDoc.getInteger("zip", 0),
-	                addresDoc.getString("street"),
-	                addresDoc.getInteger("number", 0)
-	            );
+	                addresDoc.getString("street"), 
+	                addresDoc.getInteger("number", 0) 
+	            ); 
 	            e.setAddres(dire);
 	        }
 
@@ -138,5 +138,7 @@ public class EstudianteRepositorio {
 	public String toString() {
 		return "EstudianteRepositorio [coleccion=" + coleccion + "]";
 	}
+
+
 
 }

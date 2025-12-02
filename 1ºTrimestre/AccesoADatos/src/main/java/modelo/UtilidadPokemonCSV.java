@@ -46,8 +46,8 @@ public class UtilidadPokemonCSV {
 
 	public Pokemon devuelvePokemon(String rutaFichero) {
 		Pokemon p = null;
-		try {
-			Gson gson = new Gson();
+		try { 
+			Gson gson = new Gson(); 
 			FileReader fichero = new FileReader(rutaFichero);
 			// Leer el archivo JSON y convertirlo a un objeto Empleado
 			p = gson.fromJson(fichero, Pokemon.class);

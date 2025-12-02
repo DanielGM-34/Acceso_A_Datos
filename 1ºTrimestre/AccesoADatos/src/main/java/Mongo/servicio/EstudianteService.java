@@ -27,13 +27,11 @@ public class EstudianteService {
 
 	// Lista todos los estudiantes
 	public List<Estudiante> read() {
-		return repo.read();
+		return repo.read(); 
 	}
 	// TODO Agregar resto de operaciones del CRUD
 
-	public List<Estudiante> devuelveEstudiantes() {
-		return null;
-	}
+
 
 	@Override
 	public String toString() {

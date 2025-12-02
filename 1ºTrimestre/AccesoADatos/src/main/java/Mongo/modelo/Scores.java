@@ -3,7 +3,7 @@ package Mongo.modelo;
 public class Scores {
 	private double score;
 	private String type;
-
+ 
 	public Scores(double score, String type) {
 		super();
 		this.score = score;
