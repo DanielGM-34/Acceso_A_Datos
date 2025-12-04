@@ -8,6 +8,8 @@ import org.bson.Document;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.Filters;
+import com.mongodb.client.model.Updates;
 
 import Mongo.modelo.Address;
 import Mongo.modelo.Estudiante;
@@ -47,7 +49,7 @@ public class EstudianteRepositorio {
 
 		List<Document> puntuaciones = new ArrayList<Document>();
 
-		for (Scores record : e.getScores()) {
+		for (Scores record : e.getScores()) { 
 			Document score = new Document("score", record.getScore()).append("type", record.getType());
 			puntuaciones.add(score);
 		}
@@ -133,6 +135,41 @@ public class EstudianteRepositorio {
 	        estudiantes.add(e);
 	    }
 	    return estudiantes;
+	}
+
+	
+	//metodos crud 
+
+	// UPDATE
+	public void updateNotaMedia(int id, double nuevaNotaMedia) {
+	    coleccion.updateOne(
+	            Filters.eq("id", id),
+	            Updates.set("notaMedia", nuevaNotaMedia)
+	    );
+	}
+
+	public void updateNombre(int id, String nuevoNombre) {
+	    coleccion.updateOne(
+	            Filters.eq("id", id),
+	            Updates.set("name", nuevoNombre)
+	    );
+	}
+
+	public void updateDireccion(int id, Address nuevaDireccion) {
+	    Document direccion = new Document("city", nuevaDireccion.getCity())
+	            .append("zip", nuevaDireccion.getZip())
+	            .append("street", nuevaDireccion.getStreet())
+	            .append("number", nuevaDireccion.getNumber());
+
+	    coleccion.updateOne(
+	            Filters.eq("id", id),
+	            Updates.set("address", direccion)
+	    );
+	}
+
+	// DELETE
+	public void delete(int id) {  
+	    coleccion.deleteOne(Filters.eq("id", id));
 	}
 
 
