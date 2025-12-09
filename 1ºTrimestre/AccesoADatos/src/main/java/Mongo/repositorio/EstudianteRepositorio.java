@@ -153,7 +153,7 @@ public class EstudianteRepositorio {
 	            Filters.eq("id", id),
 	            Updates.set("name", nuevoNombre)
 	    );
-	}
+	} 
 
 	public void updateDireccion(int id, Address nuevaDireccion) {
 	    Document direccion = new Document("city", nuevaDireccion.getCity())
