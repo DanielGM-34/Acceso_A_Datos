@@ -5,6 +5,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import Boletin1Modelo.TipoAgente;
 import TareaEval.modelo.InteraccionAgente;
 import modelo.Empleado; 
